@@ -121,10 +121,11 @@ html{
     border: 2px solid #fcfcfc;
     width: 100%;
     min-width: 100px;
-    max-width: 120px;
+    max-width: 140px;
     height: 100%;
     min-height: 40px;
     max-height: 50px;
+    padding: 7px;
     border-radius: 30px;
 }
 .presentation_info a{
@@ -211,7 +212,57 @@ html{
     object-fit: fill;
 }
 
+.time_chronometer{
+    width: 90%;
+    min-width: 200px;
+    max-width: 350px;
+    height: auto;
+    margin: 20px auto 50px auto;
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+    background: rgb(10 24 34);
+    box-shadow: 0 8px 32px 0 rgb(3 96 195 / 37%);
+    backdrop-filter: blur( 8.5px );
+    -webkit-backdrop-filter: blur( 8.5px );
+    border-radius: 10px;
+    border: 3px solid rgb(255 255 255);
+}
 
+.time_chronometer h2{
+    color: #fff;
+    text-align: center;
+    font-size: 2rem;
+}
+.time_chronometer img{
+    width: 100%;
+    min-width: 150px;
+    max-width: 300px;
+    height: 100%;
+    min-height: 50px;
+    max-height: 130px;
+}
+.time_chronometer button{
+    background: #051C2C;
+    border: 2px solid #fcfcfc;
+    width: 100%;
+    min-width: 100px;
+    max-width: 140px;
+    height: 100%;
+    min-height: 40px;
+    max-height: 50px;
+    padding: 5px;
+    border-radius: 30px;
+}
+.time_chronometer a{
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 700;
+    font-family: 'Oswald', sans-serif;
+    text-decoration: none;
+}
 
 
 

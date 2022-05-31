@@ -1,6 +1,11 @@
 let showHours = document.querySelector(".hours")
 let showMinutes = document.querySelector(".minutes")
 
+let hoursChronometer = document.querySelector(".hoursChronometer")
+let minutesChronometer = document.querySelector(".minutesChronometer")
+let hoursChronometerValue = 0;
+let minutesChronometerValue = 0;
+
 function getDate() {
     let date = new Date();
     let hours = date.getHours()
