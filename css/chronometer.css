@@ -1,0 +1,41 @@
+.time_buttons{
+    display: flex;
+    gap: 20px;
+}
+.time_buttons button{
+    width: 100%;
+    min-width: 70px;
+    max-width: 120px;
+    height: 100%;
+    min-height: 40px;
+    max-height: 50px;
+    padding: 5px;
+    background: #051C2C;
+    color: #fff;
+    border: 2px solid #fcfcfc;
+    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.time_buttons :hover{
+    opacity: 0.6;
+}
+
+
+.timer_buttons button{
+    width: 100%;
+    min-width: 120px;
+    max-width: 140px;
+    height: 100%;
+    min-height: 50px;
+    max-height: 70px;
+    padding: 5px;
+    background: #051C2C;
+    color: #fff;
+    border: 2px solid #fcfcfc;
+    border-radius: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+}

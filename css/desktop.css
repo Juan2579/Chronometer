@@ -1,0 +1,121 @@
+.button_burger{
+    display: none;
+}
+.header_content .header_nav{
+    display: block;
+    width: 100%;
+    max-width: 240px;
+
+}
+.header_nav .nav_content{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+    list-style: none;
+}
+.nav_content li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100px;
+    height: 30px;
+}
+.nav_content li a{
+    width: fit-content;
+    min-width: 120px;
+    padding: 5px;
+    max-width: 150px;
+    color: var(--titles-color-font);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+}
+.nav_content li a:hover{
+    background-color: #fff;
+    border-radius: 20px;
+    color: #000
+}
+
+.presentation_container{
+    max-width: 1400px
+}
+
+.presentation_info{
+    display: grid;
+    place-content: center;
+    align-items: center;
+    justify-items: center;
+    grid-template-columns: auto auto auto;
+    grid-template-areas: 
+    'Title Image'
+    'Text Image'
+    'Button Image'
+    ;
+    max-width: 1000px;
+}
+.presentation_info h2{
+    grid-area: Title;
+    font-size: 3rem;
+}
+.presentation_info h3{
+    width: 100%;
+    grid-area: Text;
+    font-size: 2.5rem
+}
+.presentation_info img{
+    grid-area: Image
+}
+.presentation_info button{
+    grid-area: Button;
+}
+.presentation_info button a{
+    font-size: 2.2rem
+}
+
+
+.main_time{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+    'Time Chronometer'
+    'Images Images'
+    ;
+}
+.time_info{
+    grid-area: Time;
+    justify-self: center;
+    justify-content: center;
+    margin: 20px 50px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+.time_info h2{
+    font-size: 2.4rem
+}
+.time_info h3{
+    width: 90%;
+    font-size: 2.1rem;
+}
+.time_chronometer{
+    grid-area: Chronometer;
+    justify-content: center;
+    margin: 20px 50px;
+    height: 270px;
+    margin-bottom: 20px;
+}
+.time_chronometer h2{
+    font-size: 2.4rem
+}
+.time_chronometer button{
+    font-size: 2.1rem;
+}
+.main_images{
+    grid-area: Images
+}
+.main_images{
+    display: flex
+}
+.main_images picture{
+    height: 250px;
+    border: 3px solid rgb(255 255 255);
+}

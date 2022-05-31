@@ -1,11 +1,6 @@
 let showHours = document.querySelector(".hours")
 let showMinutes = document.querySelector(".minutes")
 
-let hoursChronometer = document.querySelector(".hoursChronometer")
-let minutesChronometer = document.querySelector(".minutesChronometer")
-let hoursChronometerValue = 0;
-let minutesChronometerValue = 0;
-
 function getDate() {
     let date = new Date();
     let hours = date.getHours()
@@ -28,5 +23,24 @@ function getDate() {
     }
     
     
-    setTimeout("getDate()", 1000)
+    setTimeout("getDate()", 100000)
+}
+
+
+const burgerButton = document.querySelector('.button_burger')
+const xButton = document.querySelector('.button_x')
+const mobileNavigation = document.querySelector('.header_mobile-navigation')
+
+function appearNavigation() {
+    burgerButton.style.display = 'none'
+    xButton.style.display = 'block'
+
+    mobileNavigation.style.display = 'block'
+
+}
+function dissapearNavigation() {
+    burgerButton.style.display = 'block'
+    xButton.style.display = 'none'
+
+    mobileNavigation.style.display = 'none'
 }
